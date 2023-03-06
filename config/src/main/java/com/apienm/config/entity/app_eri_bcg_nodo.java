@@ -5,8 +5,6 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-import lombok.Getter;
-import lombok.Setter;
 
 import javax.persistence.Id;
 
@@ -17,7 +15,7 @@ import javax.persistence.Id;
 public class app_eri_bcg_nodo {
 	
 	@Id
-	@Column(name="nodo")@Setter @Getter
+	@Column(name="nodo")
 	private String nodo;
 	
 	@Column(name="pais")
